@@ -6,11 +6,6 @@ print("Greetings, " + name + ". Let us go on a quest!")
 print("You find yourself on the edge of a dark forest.")
 print("Can you find your way through?\n")
 
-a = randrange(1,2)
-if a == 1:
-    forest()
-elif a == 2:
-    other()
 
 # Start of game
 def forest():
@@ -47,4 +42,10 @@ def forest():
             print("I didn't understand that.\n")
 
 def other():
+    print("<3")
 
+a = random.randint(1, 2)
+if a == 1:
+    forest()
+elif a == 2:
+    other()
